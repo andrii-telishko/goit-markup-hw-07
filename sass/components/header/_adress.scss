@@ -12,8 +12,6 @@
   }
 
   .link {
-    display: inline-flex;
-    align-items: center;
     color: $text-links;
 
     font-weight: 500;
@@ -32,6 +30,11 @@
 
   .icon {
     fill: currentColor;
+  }
+
+  .link {
+    display: inline-flex;
+    align-items: center;
   }
 }
 
